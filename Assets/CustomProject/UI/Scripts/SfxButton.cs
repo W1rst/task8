@@ -12,6 +12,8 @@ namespace CustomProject
         #region Private Variables
 
         private Button _button;
+        private AudioManager _audioManager;
+
 
         #endregion
 
@@ -20,6 +22,7 @@ namespace CustomProject
 
         private void Start()
         {
+            _audioManager = FindObjectOfType<AudioManager>();
             _button = GetComponent<Button>();
             _button.onClick.AddListener(Click);
         }
@@ -30,9 +33,8 @@ namespace CustomProject
 
         private void Click()
         {
-            Debug.Log("Sa");
-
             //PlayClick from audio manager
+            _audioManager.PlayClick();
         }
 
         #endregion
