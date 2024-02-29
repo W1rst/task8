@@ -9,6 +9,7 @@ namespace CustomProject
     [RequireComponent(typeof(Button))]
     public class SfxButton : MonoBehaviour
     {
+
         #region Private Variables
 
         private Button _button;
