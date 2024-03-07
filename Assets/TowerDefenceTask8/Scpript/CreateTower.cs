@@ -9,7 +9,7 @@ public class CreateTower : MonoBehaviour
     [SerializeField] private int _towerCostOne = 100;
     [SerializeField] private int _towerCostTwo = 200;
 
-    private bool _canBuyTower = false;
+    [HideInInspector] public bool _canBuyTower = false;
 
     [SerializeField] private Button _towerOneButton;
     [SerializeField] private Button _towerTwoButton;
@@ -29,9 +29,12 @@ public class CreateTower : MonoBehaviour
 
     private void Update()
     {
-        if (_canBuyTower && Input.GetButtonDown("Fire1"))
+        if (_canBuyTower)
         {
             ShowTowerPanel(_cubePosition);
+        } else
+        {
+            _towerPanel.SetActive(false);
         }
     }
 
@@ -44,12 +47,13 @@ public class CreateTower : MonoBehaviour
 
     private void CloseTowerPanel()
     {
+        _canBuyTower = false;
         _towerPanel.SetActive(false);
     }
 
     private void BuyTowerOne()
     {
-        Collider[] colliders = Physics.OverlapSphere(_cubePosition + new Vector3(1f, 1.8f, -1f), 0.5f);
+        Collider[] colliders = Physics.OverlapSphere(_cubePosition + new Vector3(0f, 1f, 0f), 0.5f);
 
         if (colliders.Length > 0)
         {
@@ -65,14 +69,14 @@ public class CreateTower : MonoBehaviour
         if (MainScript.instance.GetMoney() >= _towerCostOne)
         {
             MainScript.instance.DecreaseMoney(_towerCostOne);
-            Instantiate(_towerOnePrefab, _cubePosition + new Vector3(1f, 1.8f, -1f), transform.rotation);
-            _towerPanel.SetActive(false);
+            Instantiate(_towerOnePrefab, _cubePosition + new Vector3(0f, 1f, 0f), transform.rotation);
+            CloseTowerPanel();
         }
     }
 
     private void BuyTowerTwo()
     {
-        Collider[] colliders = Physics.OverlapSphere(_cubePosition + new Vector3(1f, 1.8f, -1f), 0.5f);
+        Collider[] colliders = Physics.OverlapSphere(_cubePosition + new Vector3(0f, 1f, 0f), 0.5f);
 
         if (colliders.Length > 0)
         {
@@ -88,14 +92,14 @@ public class CreateTower : MonoBehaviour
         if (MainScript.instance.GetMoney() >= _towerCostTwo)
         {
             MainScript.instance.DecreaseMoney(_towerCostTwo);
-            Instantiate(_towerTwoPrefab, _cubePosition + new Vector3(1f, 1.8f, -1f), transform.rotation);
-            _towerPanel.SetActive(false);
+            Instantiate(_towerTwoPrefab, _cubePosition + new Vector3(0f, 1f, 0f), transform.rotation);
+            CloseTowerPanel();
         }
     }
 
     private void SellTower()
     {
-        Collider[] colliders = Physics.OverlapSphere(_cubePosition + new Vector3(1f, 1.8f, -1f), 0.5f);
+        Collider[] colliders = Physics.OverlapSphere(_cubePosition + new Vector3(0f, 1f, 0f), 0.5f);
 
         if (colliders.Length > 0)
         {

@@ -5,16 +5,18 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject _enemyPrefab;
     [SerializeField] private float _spawnRate = 2f;
-    [SerializeField] private int _maxEnemies = 10;
+    [SerializeField] private int _maxEnemies = 0;
+    [SerializeField] private GameObject _winPanel;
 
     [SerializeField] private SplineComputer _splineObject;
 
     private int _currentEnemies = 0;
     private float _spawnTimer = 0f;
-
+    public static int _endEnemies = 0;
+  
     private void Update()
     {
-        if (_currentEnemies < _maxEnemies)
+        if (_currentEnemies <= _maxEnemies)
         {
             _spawnTimer += Time.deltaTime;
 
@@ -27,12 +29,18 @@ public class EnemySpawner : MonoBehaviour
                 follower.spline = _splineObject;
 
                 _currentEnemies++;
+                Debug.Log(_currentEnemies);
             }
         }
+        EnemyDestroyed();
     }
 
     public void EnemyDestroyed()
     {
-        _currentEnemies--;
+        if (EnemyGoblin.enemy == 41)
+        {
+            _winPanel.SetActive(true);
+            Debug.Log("All enemies destroyed!");
+        }
     }
 }

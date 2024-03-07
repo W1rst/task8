@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -345,6 +349,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -990,7 +998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8749c4a6c358f414a811a5e2a205b770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 0.68
+  _sensitivity: 0.5
+  _moveSpeed: 5
 --- !u!1001 &114114559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1574,6 +1583,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -1657,6 +1670,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -1997,6 +2014,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -2082,6 +2103,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -2165,6 +2190,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -3735,7 +3764,7 @@ RectTransform:
   m_GameObject: {fileID: 769889659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8384, y: 2.8384, z: 2.8384}
+  m_LocalScale: {x: 7.2787924, y: 7.2787924, z: 7.2787924}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1182165063}
@@ -4767,6 +4796,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -5005,15 +5038,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eafc4c84686ef71478ddd351e4fd5b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerOnePrefab: {fileID: 8462871196891983963, guid: 3d768b2e38e88154999bd3caaf019f25, type: 3}
-  towerTwoPrefab: {fileID: 8462871196891983963, guid: 56031a9a2f858dc429637361ce78de38, type: 3}
-  towerPanel: {fileID: 769889659}
-  towerCostOne: 100
-  towerCostTwo: 100
-  towerOne: {fileID: 1182165064}
-  towerTwo: {fileID: 1234821358}
-  sellButton: {fileID: 1478751029}
-  closeButton: {fileID: 622187314}
+  _towerOnePrefab: {fileID: 8462871196891983963, guid: 3d768b2e38e88154999bd3caaf019f25, type: 3}
+  _towerTwoPrefab: {fileID: 8462871196891983963, guid: 56031a9a2f858dc429637361ce78de38, type: 3}
+  _towerPanel: {fileID: 769889659}
+  _towerCostOne: 100
+  _towerCostTwo: 200
+  _towerOneButton: {fileID: 1182165064}
+  _towerTwoButton: {fileID: 1234821358}
+  _sellButton: {fileID: 1478751029}
+  _closeButton: {fileID: 622187314}
 --- !u!1001 &1084640890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5400,6 +5433,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -7042,6 +7079,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -7189,6 +7230,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -7334,6 +7379,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -8425,6 +8474,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -8763,6 +8816,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -8867,7 +8924,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1668438240804312977}
+  - {fileID: 2792158456492890571}
   - {fileID: 1839527797}
   - {fileID: 515255915}
   - {fileID: 1495663977}
@@ -9879,6 +9936,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -9964,6 +10025,10 @@ PrefabInstance:
       propertyPath: creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: m_Size.y
       value: 2.171668
@@ -10047,6 +10112,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -10137,6 +10206,10 @@ PrefabInstance:
       objectReference: {fileID: 769889659}
     - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
       propertyPath: creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+      propertyPath: _creatTowerScript
       value: 
       objectReference: {fileID: 1084196298}
     - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
@@ -10466,10 +10539,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 855a9b7fc514601419d3dfb0a30d74f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1906823472205072733, guid: ca39a9c900e306742bcde47e299cdc5b, type: 3}
-  spawnRate: 1
-  maxEnemies: 1000
-  splineObject: {fileID: 1961156400}
+  _enemyPrefab: {fileID: 1906823472205072733, guid: ca39a9c900e306742bcde47e299cdc5b, type: 3}
+  _spawnRate: 2
+  _maxEnemies: 10
+  _splineObject: {fileID: 1961156400}
 --- !u!4 &2135961822
 Transform:
   m_ObjectHideFlags: 0
@@ -10485,7 +10558,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &463545380823853823
+--- !u!4 &2792158456492890571 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
+  m_PrefabInstance: {fileID: 4566521874056170227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4566521874056170227
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10493,88 +10571,59 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1819623506}
     m_Modifications:
-    - target: {fileID: 2144195907721072915, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: m_Name
-      value: HM_GrassTower
-      objectReference: {fileID: 0}
-    - target: {fileID: 2144195907721072915, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: m_TagString
-      value: Create
-      objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 831589157803023078, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
+      propertyPath: _creatTowerScript
+      value: 
+      objectReference: {fileID: 1084196298}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.4213142
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4.117838
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.582616
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
+    - target: {fileID: 3810237365842347535, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5187945043581071211, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: towerOne
-      value: 
-      objectReference: {fileID: 1182165064}
-    - target: {fileID: 5187945043581071211, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: towerTwo
-      value: 
-      objectReference: {fileID: 1234821358}
-    - target: {fileID: 5187945043581071211, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: towerPanel
-      value: 
-      objectReference: {fileID: 769889659}
-    - target: {fileID: 5680381142303476610, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: creatTowerScript
-      value: 
-      objectReference: {fileID: 1084196298}
-    - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: m_Size.y
-      value: 2.171668
-      objectReference: {fileID: 0}
-    - target: {fileID: 7527730212545216586, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-      propertyPath: m_Center.y
-      value: 1.085834
+    - target: {fileID: 7710302897827198758, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
+      propertyPath: m_Name
+      value: HM_GrassTower
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
---- !u!4 &1668438240804312977 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2364782621987959604, guid: 45a85b171003bff4ca08c95180c6be6d, type: 3}
-  m_PrefabInstance: {fileID: 463545380823853823}
-  m_PrefabAsset: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 08a91b3fa07d2e14fa707b771e9504ba, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

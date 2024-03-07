@@ -380,7 +380,7 @@ MonoBehaviour:
   _follow: 1
   _startPosition: 0
   preserveUniformSpeedWithOffset: 0
-  _followSpeed: 1.4
+  _followSpeed: 16.67
   _followDuration: 1
   _speedModifier:
     blend: 1
@@ -431,7 +431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bdec040f861a0d4086f158e37699936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  _maxHealth: 100
+  _currentHealth: 0
 --- !u!1 &2598382810680721270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,10 +1345,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 855a9b7fc514601419d3dfb0a30d74f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
-  spawnRate: 2
-  maxEnemies: 10
-  splineObject: {fileID: 0}
+  _enemyPrefab: {fileID: 0}
+  _spawnRate: 2
+  _maxEnemies: 0
+  _winPanel: {fileID: 0}
+  _splineObject: {fileID: 0}
 --- !u!54 &2702132362142263588
 Rigidbody:
   m_ObjectHideFlags: 0

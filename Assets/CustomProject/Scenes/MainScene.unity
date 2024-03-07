@@ -628,7 +628,6 @@ GameObject:
   - component: {fileID: 1305537317}
   - component: {fileID: 1305537314}
   - component: {fileID: 1305537313}
-  - component: {fileID: 1305537312}
   m_Layer: 5
   m_Name: JustScreen
   m_TagString: Untagged
@@ -657,19 +656,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1305537312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1305537310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a404ada9511994bbaa342eab849e5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _visible: 0
 --- !u!225 &1305537313
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -856,7 +842,6 @@ GameObject:
   - component: {fileID: 8474906661813611374}
   - component: {fileID: 8474906661813611373}
   - component: {fileID: 633383048419047609}
-  - component: {fileID: 8474906661813611375}
   m_Layer: 5
   m_Name: Popup
   m_TagString: Untagged
@@ -895,10 +880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a80b5291c2a5eea4f86c99fe0730bcff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _visible: 0
-  _rootRectTr: {fileID: 0}
-  _canvasGroup: {fileID: 0}
-  _inheritedCanvas: {fileID: 0}
 --- !u!114 &456348022730694175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,7 +1177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2230869140258187631
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2414,19 +2395,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a404ada9511994bbaa342eab849e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _visible: 1
---- !u!114 &8474906661813611375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257115680034901969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a404ada9511994bbaa342eab849e5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   _visible: 0
 --- !u!1 &8623235775901055033
 GameObject:
@@ -2533,7 +2501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61a4e64b216cf18468fd1980cfba22d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Screen: {fileID: 6118485979662105591}
+  _visible: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

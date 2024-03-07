@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/CustomProject/Scenes/Boot.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/CustomProject/Scenes/Game.unity
     guid: ec69d29cd8e1a2242b8e8865b444c7c9
+  - enabled: 1
+    path: Assets/TowerDefence_Vsquad/Scene/HM_All_objects_on_grid.unity
+    guid: dbc90681fda1b26458710f55acc1123b
+  - enabled: 1
+    path: Assets/TowerDefenceTask8/Scene/MainScene.unity
+    guid: 192838526ec6ccf49a13ad5c90e775ab
+  - enabled: 1
+    path: Assets/TowerDefenceTask8/Scene/lvl1 Forest.unity
+    guid: cc3394a362c052545b42823ea9539668
+  - enabled: 1
+    path: Assets/TowerDefenceTask8/Scene/lvl2 Forest.unity
+    guid: 5fcc3e8e8c5d32f42b3c7b768a6f3c59
   m_configObjects: {}
