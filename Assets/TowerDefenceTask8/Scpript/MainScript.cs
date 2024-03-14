@@ -21,6 +21,8 @@ public class MainScript : MonoBehaviour
 
     [SerializeField] private GameObject _losePanel;
 
+    EnemySpawner enemySp;
+
     private float _timer;
     private int _activeCups;
 
@@ -96,6 +98,8 @@ public class MainScript : MonoBehaviour
     void BackToMenu()
     {
         SceneManager.LoadScene(1);
+        enemySp._winPanel.SetActive(false);
+        _losePanel.SetActive(false);
     }
 
     void Lose()

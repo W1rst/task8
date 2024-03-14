@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemyGoblin : MonoBehaviour
@@ -18,7 +19,7 @@ public class EnemyGoblin : MonoBehaviour
         healthSlider.value = _currentHealth;
         
     }
-
+    
     public void TakeDamage(int damageAmount)
     {
         _currentHealth -= damageAmount;

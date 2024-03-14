@@ -6,7 +6,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private GameObject _enemyPrefab;
     [SerializeField] private float _spawnRate = 2f;
     [SerializeField] private int _maxEnemies = 0;
-    [SerializeField] private GameObject _winPanel;
+    public GameObject _winPanel;
 
     [SerializeField] private SplineComputer _splineObject;
 
@@ -40,7 +40,7 @@ public class EnemySpawner : MonoBehaviour
         if (EnemyGoblin.enemy == 100)
         {
             _winPanel.SetActive(true);
-            Debug.Log("All enemies destroyed!");
+            EnemyGoblin.enemy = 0;
         }
     }
 }

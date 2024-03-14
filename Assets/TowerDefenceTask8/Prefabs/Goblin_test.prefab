@@ -350,7 +350,7 @@ MonoBehaviour:
     retainLocalPosition: 0
     direction: 1
     applyRotationX: 0
-    applyRotationY: 1
+    applyRotationY: 0
     applyRotationZ: 0
     applyRotation2D: 1
     retainLocalRotation: 1
