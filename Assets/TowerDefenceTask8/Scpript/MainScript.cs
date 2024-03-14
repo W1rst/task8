@@ -44,7 +44,7 @@ public class MainScript : MonoBehaviour
 
         UpdateTimerText();
 
-        if (_timer >= 30f || _hp != 20)
+        if (_timer <= 120f || _hp != 20)
         {
             if (_activeCups > 0)
             {
@@ -95,7 +95,7 @@ public class MainScript : MonoBehaviour
 
     void BackToMenu()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     void Lose()

@@ -13,10 +13,10 @@ public class EnemySpawner : MonoBehaviour
     private int _currentEnemies = 0;
     private float _spawnTimer = 0f;
     public static int _endEnemies = 0;
-  
+
     private void Update()
     {
-        if (_currentEnemies <= _maxEnemies)
+        if (_currentEnemies < _maxEnemies && _currentEnemies < 100)
         {
             _spawnTimer += Time.deltaTime;
 
@@ -29,15 +29,15 @@ public class EnemySpawner : MonoBehaviour
                 follower.spline = _splineObject;
 
                 _currentEnemies++;
-                Debug.Log(_currentEnemies);
             }
         }
+
         EnemyDestroyed();
     }
 
     public void EnemyDestroyed()
     {
-        if (EnemyGoblin.enemy == 41)
+        if (EnemyGoblin.enemy == 100)
         {
             _winPanel.SetActive(true);
             Debug.Log("All enemies destroyed!");

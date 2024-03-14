@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 1892465210679521436}
   - component: {fileID: 3149512429581998196}
   - component: {fileID: 3256961485498899101}
+  - component: {fileID: 3672938003875179801}
   - component: {fileID: 8495697794804653312}
   m_Layer: 6
   m_Name: rotater
@@ -559,7 +560,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8495697794804653312
+--- !u!114 &3672938003875179801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -567,6 +568,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9081978397377025754}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78260bd67045ba54580707fb4e468720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _range: 3.98
+  _bullet: {fileID: 1240887441953726, guid: 8a976dcd328a4664c85144f33b9c46b0, type: 3}
+  _bulletExp: {fileID: 1240887441953726, guid: 2a009b1f45ccc624a98585d177822385, type: 3}
+  _currCooldown: 0
+  _cooldown: 1
+  _numberOfProjectiles: 2
+--- !u!114 &8495697794804653312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9081978397377025754}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fab6c545cf884154a83d78e82744ee1f, type: 3}
   m_Name: 
