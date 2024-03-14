@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class m1 : PopupView
+public class PopupMessage : PopupView
 {
-    public override Popup Popup => Popup.Error;
+    public override Popup Popup => Popup.Message;
 }

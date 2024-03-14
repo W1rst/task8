@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class m : PopupView
+public class PopupLoading : PopupView
 {
     public override Popup Popup => Popup.Loading;
 }
