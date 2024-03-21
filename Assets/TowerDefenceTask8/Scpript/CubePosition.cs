@@ -14,9 +14,6 @@ public class CubePosition : MonoBehaviour
         {
             _creatTowerScript = FindObjectOfType<CreateTower>();
             _creatTowerScript.ShowTowerPanel(transform.position);
-        } else
-        {
-            Debug.Log("lox");
         }
     }
 }

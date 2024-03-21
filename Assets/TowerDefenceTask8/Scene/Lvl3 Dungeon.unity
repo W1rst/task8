@@ -10965,7 +10965,7 @@ MonoBehaviour:
   textHP: {fileID: 1584759167}
   _money: 11000
   _hp: 20
-  cups:
+  stars:
   - {fileID: 909407809}
   - {fileID: 815951010}
   - {fileID: 1760336525}
@@ -22445,7 +22445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07542269290cb134db414118ba53a69d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf070f1e2516424986ed7a929324fc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25071,7 +25071,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07542269290cb134db414118ba53a69d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf070f1e2516424986ed7a929324fc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -49465,7 +49465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07542269290cb134db414118ba53a69d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf070f1e2516424986ed7a929324fc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

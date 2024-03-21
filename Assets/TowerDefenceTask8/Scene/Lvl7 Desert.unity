@@ -8288,7 +8288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07542269290cb134db414118ba53a69d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf070f1e2516424986ed7a929324fc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18797,7 +18797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07542269290cb134db414118ba53a69d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf070f1e2516424986ed7a929324fc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19702,7 +19702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07542269290cb134db414118ba53a69d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf070f1e2516424986ed7a929324fc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -42458,13 +42458,14 @@ MonoBehaviour:
   textHP: {fileID: 2010416223}
   _money: 11000
   _hp: 20
-  cups:
+  stars:
   - {fileID: 733465776}
   - {fileID: 769153788}
   - {fileID: 299123871}
   _back: {fileID: 1316553247}
   _backtolvl: {fileID: 462456042}
   _backLose: {fileID: 782068097}
+  starsssss: 0000000000000000000000000000000000000000000000000000000000000000
   _losePanel: {fileID: 1955840616}
 --- !u!4 &1706292883
 Transform:

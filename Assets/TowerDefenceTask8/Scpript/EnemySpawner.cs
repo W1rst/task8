@@ -35,12 +35,14 @@ public class EnemySpawner : MonoBehaviour
         EnemyDestroyed();
     }
 
-    public void EnemyDestroyed()
+    void EnemyDestroyed()
     {
-        if (EnemyGoblin.enemy == 100)
+        if (EnemyGoblin.enemy >= 100)
         {
             _winPanel.SetActive(true);
+            MainScript.instance.Win();
             EnemyGoblin.enemy = 0;
+            Time.timeScale = 0;
         }
     }
 }

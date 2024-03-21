@@ -25,7 +25,10 @@ public class AttackTower : MonoBehaviour
             _currCooldown -= Time.deltaTime;
         }
 
-        RotateTowards(_target.position);
+        if (_target != null)
+        {
+            RotateTowards(_target.position);
+        }
     }
 
     bool CanShoot()

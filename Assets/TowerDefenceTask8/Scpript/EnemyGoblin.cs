@@ -17,7 +17,6 @@ public class EnemyGoblin : MonoBehaviour
 
         healthSlider.maxValue = _maxHealth;
         healthSlider.value = _currentHealth;
-        
     }
     
     public void TakeDamage(int damageAmount)
@@ -41,6 +40,5 @@ public class EnemyGoblin : MonoBehaviour
     {
         Destroy(gameObject);
         enemy++;
-        Debug.Log(enemy);
     }
 }
